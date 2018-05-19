@@ -37,7 +37,7 @@ li {
     padding: 28px 20px 28px 20px;
 }
 
-#background {
+section {
     background-image: url("../../assets/images/light-grey-terrazzo.png");
     border-top-width: 2px;
     border-top-color: #cccccc;
@@ -122,7 +122,7 @@ img {
     width: 200px;
 }
 
-.desc {
+.overlay-caption {
     width: 200px;
     background-color: #4aaaa5;
     text-align: center;
@@ -131,7 +131,6 @@ img {
     padding-top: 16px;
     padding-bottom: 16px;
     color: #ffffff;
-    
     position: absolute;
     bottom: 10px;
 }
