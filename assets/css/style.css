@@ -69,20 +69,36 @@ h2 {
     border-bottom-style: solid;   
 } 
 
-#bio {
+#bio, form {
     margin: 0 auto;
     padding: 20px;
     width: 920px; 
 } 
+
+input, textarea {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
 
 img {
     height: 250px;
     width: 200px;
     float: left;
     margin: 0px 20px 20px 0px;
-}
-
-p {
 }
 
 footer {
